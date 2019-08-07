@@ -1,0 +1,1515 @@
+﻿
+:root {
+    /* Patisserie Valerie Corporate Colours */
+    --pv-primary: #594344;
+    --pv-secondary: #C9D2C3;
+}
+
+input[type=checkbox], input[type=radio]
+{
+    width:20px !important;
+}
+
+input[type=radio]:checked
+{
+    background:red !important;
+}
+
+a:hover
+{
+    text-decoration:none;
+}
+
+.pv-primary {
+    color: #594344;
+}
+
+.pv-secondary {
+    color: #C9D2C3;
+}
+
+.section-primary {
+    background: #e8666491;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.section-secondary {
+    /*background: #C9D2C3;*/background: #f2f2f2;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.section {
+    background: #FFFFFF;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.subMenuColumn {
+    background: #e86666;
+    padding: 20px;
+    position:relative;
+    z-index:1000;
+}
+
+    .subMenuColumn h3 {
+        color: #C9D2C3;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .subMenuColumn p {
+        color: #FFF;
+    }
+
+    .subMenuColumn ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .subMenuColumn li {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .subMenuColumn a {
+        padding: 10px 5px;
+        border-bottom: 1px solid #C9D2C3;
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        color: #C9D2C3;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        font-weight: normal;
+    }
+
+        .subMenuColumn a:hover {
+            background: #C9D2C3;
+            color: #594344;
+        }
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #594344;
+}
+
+#roundel
+{
+    width:205px;
+    height:205px;
+    background:url('../../../images/banners/cake-of-the-month-roundel-2018.png');
+    background-size:cover;
+    position:absolute;
+    bottom:-50px;
+    left:-90px;
+    z-index:999;
+}
+
+#royalroundel
+{
+    width:205px;
+    height:205px;
+    background:url('../../../images/banners/royal-roundel.png');
+    background-size:cover;
+    position:absolute;
+    bottom:-50px;
+    left:-90px;
+    z-index:999;
+}
+
+#royalroundel-right
+{
+    width:205px;
+    height:205px;
+    background:url('../../../images/banners/royal-roundel.png');
+    background-size:cover;
+    position:absolute;
+    bottom:-50px;
+    left:50%;
+    z-index:999;
+}
+
+/*
+    #########################################################################################
+
+                                            FONTS
+
+    #########################################################################################
+*/
+
+@font-face {font-family: pv-font;src: url('../font/2BFFB8_0_0.eot');
+                                src: url('../font/2BFFB8_0_0.eot?#iefix') format('embedded-opentype'),url('../font/2BFFB8_0_0.woff') format('woff'),url('../font/2BFFB8_0_0.ttf') format('truetype');}
+
+
+* {
+    
+}
+
+p {
+    
+}
+/* Temporary Change */
+
+/*
+    #########################################################################################
+
+                                        SITE STRUCTURE
+
+    #########################################################################################
+*/
+
+body {
+    font-family: pv-font;
+    color: #594344;
+}
+
+.navbar {
+    border: none !important;
+    border-radius: 0px;
+}
+
+.navbar-default {
+    background-color: #594344;
+}
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background: none;
+        color: #C9D2C3;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #FFF;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #C9D2C3;
+        }
+
+.navbar-dropdown-subMenu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .navbar-dropdown-subMenu li {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+        .navbar-dropdown-subMenu li:hover {
+            background-color: #594344;
+        }
+
+            .navbar-dropdown-subMenu li:hover a {
+                color: #C9D2C3;
+            }
+
+        .navbar-dropdown-subMenu li a {
+            text-decoration: none;
+            color: #594344;
+        }
+
+.btn-pv-primary {
+    color: #C9D2C3;
+    background: #594344;
+    border: 1px solid;
+    border-color: #C9D2C3;
+    padding: 11px 14px;
+}
+
+    .btn-pv-primary:hover {
+        background: #C9D2C3;
+        color: #594344;
+        border-width: 1px;
+        border-color: #594344;
+        border-style: solid;
+    }
+
+
+.btn-pv-secondary {
+    background: #C9D2C3;
+    color: #594344;
+    border: 1px solid;
+    border-color: #C9D2C3;
+    padding: 11px 14px;
+}
+
+    .btn-pv-secondary:hover {
+        color: #C9D2C3;
+        background: #594344;
+        border-width: 1px;
+        border-color: #C9D2C3;
+        border-style: solid;
+    }
+
+.subMenuColumn {
+    margin-top: -100px;
+}
+
+/*
+    #########################################################################################
+
+                                       RESPONSIVENESS
+
+    #########################################################################################
+*/
+
+/* NOTE: Potentially add in wider container for larger screens 1200min width with a 1560 container */
+
+@media (min-width:993px) {
+    .genericHeaderWrapper {
+        height: 100%;
+        max-height: 130px;
+    }
+}
+
+@media (max-width:1200px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 0.75em;
+    }
+}
+
+/* Mobile Styling */
+@media (max-width:992px) {
+	#createACakeMain .imgPanelInnerHolder
+	{
+		height:100% !important;
+		min-height:250px;
+		margin-bottom:150px;
+	}
+	
+    body{overflow-x:hidden;}
+    .hideonMob {
+        display:none !important;
+    }
+    .headerMiddle 
+    {
+        display:none;
+    }
+    .emptyBasket
+{
+    width:100%;
+    min-height:50px;
+    background:url('/pv-template/style/images/empty-basket.jpg') no-repeat center center;
+    background-size:auto;
+    text-align:center;
+    padding-top:0%;
+}
+
+.emptyBasket:hover
+{
+     background:url('/pv-template/style/images/empty-basket.jpg') no-repeat center top;
+}
+
+#roundel
+{
+    background:url('../../../images/banners/cake-of-the-month-roundel-2018.png');
+    background-size:contain;
+    width:40%;
+    height:40%;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:50%;
+    left:20px;
+    z-index:999;
+}
+
+#royalroundel
+{
+    background:url('../../../images/banners/royal-roundel.png');
+    background-size:contain;
+    width:40%;
+    height:40%;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:50%;
+    left:20px;
+    z-index:999;
+}
+#royalroundel-right
+{
+    background:url('../../../images/banners/royal-roundel.png');
+    background-size:contain;
+    width:40%;
+    height:40%;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:50%;
+    left:5%;
+    z-index:999;
+}
+
+    .feature-box-celebration-cakes
+    {
+        margin-top:20px;
+    }
+    .bannerimageImage
+    {
+        width:100%!important;
+        text-align:center;
+        margin: 30px auto -10px auto !important;
+        float:none !important;
+    }
+
+    .defaultSlideShow
+    {
+        width:100%;
+        text-align:center!important;
+    }
+
+    .defaultSlideShow img
+    {
+        width:100%;
+        max-width:100% !important;
+        text-align:center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+
+    #map
+    {
+        margin-top:20px;
+    }
+    .btn-expanded
+    {
+        float:none;
+        margin:10px auto;
+    }
+    .feature-box-news {
+        padding-top: 2px !important;
+        height: 100% !important;
+    }
+
+    .feature-box-celebration-cakes {
+        padding-top: 2px !important;
+        height: 100% !important;
+    }
+
+    .feature-box-individual-cakes {
+        padding-top: 2px !important;
+        height: 100% !important;
+    }
+
+    .feature-box-wedding-cakes {
+        padding-top: 2px !important;
+        height: auto !important;
+    }
+
+    .feature-box-meetings {
+        padding-top: 2px !important;
+        height: auto !important;
+    }
+
+    .image-feature-box {
+        height: auto;
+        min-height: 250px;
+    }
+
+    .subMenuColumn {
+        margin-top: 0px;
+    }
+
+    .headerRow {
+        margin-top: 70px;
+    }
+
+    .nav > li > a {
+        font-size: 0.75em;
+        padding: 15px 8px;
+        height: 30px;
+    }
+
+    .navbar {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        margin-bottom: 50px;
+        z-index: 900;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+        .navbar-nav li {
+            padding: 0px 0px 10px 0px;
+            border-bottom: 1px solid #FFF;
+            margin: 0px 0px;
+        }
+
+            .navbar-nav li .navbar-dropdown-subMenu a {
+                color: #FFF;
+                padding: 15px 0px 10px 0px;
+                margin-bottom: 10px;
+                margin-left: 25px;
+                height: 30px;
+            }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+        background: none;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #FFF;
+        height: 40px;
+    }
+
+    .navbar-btn {
+        display: none;
+    }
+
+    .createcake-preview {
+        min-height: 300px;
+        margin-bottom: 50px;
+    }
+
+        .createcake-preview img {
+            width: 100% !important;
+        }
+}
+
+
+
+/*
+    #########################################################################################
+
+                                            ELEMENTS
+
+    #########################################################################################
+*/
+
+.storeDetailContainer {
+    padding:20px 20px 30px 20px;
+    border:1px solid #f6f6f6;
+    background:white;
+}
+
+.storeDetailContainer:hover {
+    border:1px solid #f6f6f6;
+    color:#ffffff;
+    background:#594344;
+}
+
+.storeDetailContainer a {
+    color:#594344;
+}
+
+.storeDetailContainer:hover a {
+    color:#C9D2C3;
+}
+
+.image-feature-box {
+    border: 2px solid;
+    border-color: #C9D2C3;
+    padding: 25px;
+    margin: 5px;
+    height: 180px;
+    color: #C9D2C3;
+    font-weight: normal;
+}
+
+    .image-feature-box > btn-pv-primary {
+        vertical-align: bottom;
+    }
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+	box-shadow:0px 0px 45px grey;    
+}
+
+.image-container {
+    height: 100%;
+}
+
+    .image-container:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 110%;
+    }
+
+.image-large img {
+    width: 100%;
+    height: 120%;
+    max-height: 570px;
+}
+
+.image-thumbnail {
+    width: auto;
+    height: 295px;
+    padding: 10px;
+    border: solid 1px #594344;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.image-feature-box-wrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+	display:none;
+}
+
+.countdownTimer {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+    .countdownTimer span {
+        font-size: 0.9em;
+    }
+
+    .countdownTimer a {
+        font-weight: bold;
+        color: #594344;
+    }
+
+    .countdownTimer p {
+        margin: 0px;
+    }
+
+#delivCollecCountdown, .changeloc {
+    font-family: pv-font;
+    text-transform: uppercase;
+    font-size: 1.0em;
+}
+
+@media (max-width:992px) {
+
+    .countdownTimer span {
+        font-size: 1.0em;
+    }
+
+}
+
+select {
+    /* styling */
+    background-color: white;
+    border: thin solid #594344;
+    border-radius: 0px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.styled-select select {
+    margin: 5px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+    select.minimal:focus {
+        background-image: linear-gradient(45deg, green 50%, transparent 50%), linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 1px 1.5em;
+        background-repeat: no-repeat;
+        border-color: green;
+        outline: 0;
+    }
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.feature-box-celebration-cakes {
+    background-image: url('../../../images/pv-template/feature-image-individual-treats.jpg');
+    background-position: right center;
+}
+
+    .feature-box-celebration-cakes p, .feature-box-celebration-cakes h3 {
+        /*background: rgba(71, 45, 30, 0.60);
+        padding: 5px;*/
+        background: rgba(240, 214, 199, 0.80);
+        padding: 5px;
+        color: #594344;
+    }
+
+.feature-box-individual-cakes {
+    background-image: url('../../../images/pv-template/slice.jpg');
+    background-position: right center;
+}
+
+    .feature-box-individual-cakes p, .feature-box-individual-cakes h3 {
+        /*background: rgba(208, 190, 190, 0.60);*/
+        /*background: rgba(71, 45, 30, 0.60);
+        padding: 5px;*/
+        /*color: #594344;*/
+        background: rgba(240, 214, 199, 0.80);
+        padding: 5px;
+        color: #594344;
+    }
+
+.feature-box-wedding-cakes {
+    background-image: url('../../../images/pv-template/feature-image-wedding-cakes3.jpg');
+    background-position: right center;
+}
+
+    .feature-box-wedding-cakes p, .feature-box-wedding-cakes h3 {
+        background: rgba(240, 214, 199, 0.60);
+        padding: 5px;
+        color: #594344;
+    }
+
+.feature-box-meetings {
+    background-image: url('../../../images/pv-template/feature-image-Valentines2.jpg');
+    background-position: right center;
+}
+
+
+    .feature-box-meetings p, .feature-box-meetings h3 {
+        background: rgba(240, 214, 199, 0.80);
+        padding: 5px;
+        color: #594344;
+    }
+
+
+
+.feature-box-news {
+    background: #594344;
+}
+
+.feature-box-blog {
+    background: #C9D2C3;
+    border: 5px solid #594344;
+}
+
+    .feature-box-blog > .image-feature-box {
+        border: 2px solid;
+        border-color: #594344;
+        padding: 25px;
+        margin: 5px;
+        height: 170px;
+        color: #594344;
+        font-weight: normal;
+    }
+
+.image-feature-box > btn-pv-primary {
+    vertical-align: bottom;
+}
+
+.image-feature-box a {
+    position: absolute;
+    bottom: 20px;
+}
+
+.image-feature-box:hover .overlay {
+    opacity: 1;
+}
+
+.product-cake-title {
+    width: 100%;
+    padding: 5px;
+    height: 60px;
+    overflow: hidden;
+    /*background-color: #C9D2C3;*/
+    background-color: #F2F2F2;
+    color: #594344;
+    font-size: 1em;
+    text-align: center;
+    line-height: 50px;
+    border:1px solid #DFDFDF;
+}
+
+    .product-cake-title span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+
+.product-cake-feature-label {
+    width: 100%;
+    padding: 5px;
+    height: 65px;
+    overflow: hidden;
+    color: #594344;
+    font-size: 1em;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer-menu {
+    padding: 20px 0px 0px 0px;
+}
+
+    .footer-menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-menu li {
+        display: inline-block;
+        margin: 2px 10px;
+    }
+
+        .footer-menu li a {
+            color: #C9D2C3;
+        }
+
+            .footer-menu li a:hover {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+.previews a {
+    padding: 20px;
+}
+
+.gallery-main-image {
+    height: 457px;
+    display: flex;
+    vertical-align: middle;
+}
+
+    .gallery-main-image img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        align-content: center;
+        margin: 0px auto;
+    }
+
+        .gallery-main-image img:hover {
+            cursor: zoom-in;
+        }
+
+.gallery-thumbnail {
+    border: 1px solid #000;
+    text-align: center;
+    height:76px;
+    overflow:hidden;
+}
+
+    .gallery-thumbnail img {
+        width: 100%;
+    }
+
+        .gallery-thumbnail img:hover {
+            cursor: pointer;
+        }
+
+         
+/* Mobile Styling */
+@media (max-width:992px) {
+
+    .gallery-thumbnail {
+    border: 1px solid #000;
+    text-align: center;
+    height:100%;
+    }
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.collectionButton {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #594344;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.deliveryButton {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #594344;
+    min-height: 100px;
+}
+
+.checkbox label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 2em;
+    height: 2em;
+    float: left;
+    margin-right: 1.5em;
+}
+
+    .checkbox .cr .cr-icon {
+        position: absolute;
+        font-size: .8em;
+        line-height: 0;
+        top: 50%;
+        left: 20%;
+    }
+
+.checkbox label input[type="checkbox"] {
+    display: none;
+}
+
+    .checkbox label input[type="checkbox"] + .cr > .cr-icon {
+        opacity: 0;
+    }
+
+    .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon {
+        opacity: 1;
+    }
+
+    .checkbox label input[type="checkbox"]:disabled + .cr {
+        opacity: .5;
+    }
+
+.cakeLayers {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.cakeLayersOLD {
+    position: absolute;
+    top: 0px;
+    width: 960px;
+    margin: 0px auto;
+}
+
+#toolspanelHolder {
+    width: auto;
+    float: none;
+    padding-top: 10px;
+    z-index: 100 !important;
+}
+
+#imgpanelHolder {
+    width: 90%;
+    float: none;
+    z-index: -5 !important;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.cacStepTitle {
+    width: 100%;
+    clear: both;
+}
+
+.cacSelectorHolder {
+    width: 100%;
+}
+
+    .cacSelectorHolder .selector {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+.cacIconAlign {
+    vertical-align: middle;
+}
+
+.cacorderdetailBlock {
+    margin: 10px 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#cacPricePanelHolder {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cacSlideHolder {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .cacSlideHolder #slider {
+        width: 300px;
+    }
+
+.cacMsgHolder {
+    width: 100%;
+}
+
+.cacMsgTextBox {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #C7C8BA;
+}
+
+.caca2bTableHolder {
+    padding-top: 10px;
+}
+
+#cacBackHolder {
+    padding-top: 30px;
+}
+
+.imgPanelInnerHolder {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+#cacAllergensHolder {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cacAllergens {
+    font-size: 15px;
+    line-height: 20px;
+    width: auto;
+}
+
+#timedialog {
+    text-align: left;
+    display: none;
+}
+
+#timedialogHeader {
+    height: 40px;
+}
+
+#timedialogInner {
+    width: 300px;
+    height: 210px;
+    overflow: auto;
+}
+
+ul.cacGlossaryUL {
+    margin-top: 3px;
+}
+
+#closeGlossary {
+    width: 300px;
+    height: 20px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.cakeLayers {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+    .cakeLayers img {
+        width: 90%;
+    }
+
+#customFrame_ToolsPanel select {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#customFrame_ToolsPanel label {
+    margin: 5px 0px 0px 0px;
+}
+
+
+.rbul {
+    display: none;
+}
+
+.createcake-preview {
+    padding: 0px 20px;
+    border: 0px solid;
+    border-color: #594344;
+    text-align: center;
+    box-shadow: 0px 0px 0px grey;
+    margin-bottom: 10px;
+    min-height: 300px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background: url(images/header-image/pv-header-image.jpg);
+    background-color: #fae7d9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px 0px;
+}
+
+.productUnavailableOverlay {
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* Shopping Cart */
+.itemRow {
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+    .itemRow div {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+
+    .itemRow:hover {
+        background: #fbf1e9;
+    }
+
+
+.radio {
+    padding: 20px;
+    background: #C9D2C3;
+    color: #594344;
+}
+
+    .radio:hover {
+        padding: 20px;
+        background: #594344;
+        color: #C9D2C3;
+    }
+
+.rdio {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    position:absolute;
+    left:35px;
+    bottom:-45px;
+}
+
+.radio label {
+    width: 100%;
+    height: 100%;
+}
+/*
+input[type="radio"] {
+    margin:0px;
+    position:absolute;
+    float:right;
+    right:-40%;
+}
+
+input[type="radio"][checked="checked"] {
+    height:20px;
+}
+*/
+.postcodeentry {
+    width: 75%;
+    float: left;
+}
+
+.postCodeSearchBtn {
+    width: 25%;
+    float: left;
+}
+
+.recieptRoll {
+    padding: 20px;
+    padding-bottom: 80px;
+    background-color:#C9D2C3;
+    /*background: url(/images/pv-template/reciept-roll-bottom.jpg) repeat-x #C9D2C3;
+    background-position: bottom;*/
+}
+
+    .recieptRoll h3 {
+        text-align: center;
+    }
+
+.recieptSubDiv {
+    padding: 10px 0px;
+    border: 1px dashed #000000;
+    border-left: none;
+    border-right: none;
+}
+
+#deliveryholder table {
+    width: 100%;
+}
+
+    #deliveryholder table td {
+        padding: 0px;
+    }
+
+.priceColumn {
+    text-align: right;
+}
+
+.deliveryOptionWrapper {
+    padding: 10px 20px;
+    background: #C9D2C3;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.deliveryButtton {
+    font-size: 0.75em;
+    margin: 10px auto;
+}
+
+.introcopy {
+    margin: 25px 15px 15px 15px;
+    color: #C9D2C3;
+}
+
+.ddListContact {
+    width: 100%;
+}
+
+.cafeLatestOpenings div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.openingtimesheader {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.openingtimestable {
+    width: 100%;
+}
+
+    .openingtimestable table td {
+        padding: 10px;
+    }
+
+.openingtimeseven {
+    text-align: right;
+}
+
+.openingtimesodd {
+    text-align: right;
+    height: 30px;
+}
+
+.divider {
+    border-bottom: 1px dashed #FFF;
+    margin: 10px 0px;
+}
+
+.btnSubMenu {
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Create a cake */
+#createACakeMain .imgPanelInnerHolder {
+    width: 100%;
+    height: 65vh;
+    text-align: center;
+    position: relative;
+    z-index:1;
+}
+
+#createACakeMain .selector {
+    width: 100%;
+    min-height: 54px;
+    margin-bottom: 10px;
+}
+
+#createACakeMain .selectorheader {
+    width: 100%;
+    padding: 10px;
+    background-color: #FAF7F2;
+    cursor: pointer;
+    background-image: url(../../../images/selector.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+#createACakeMain .rbul {
+    list-style-type: none !important;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 0px !important;
+    margin-bottom: 3px !important;
+    padding: 0px;
+}
+
+
+#createACakeMain li.selectorchkblock {
+    display: block;
+    color: #280000;
+}
+
+#createACakeMain .rbLabel {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+#createACakeMain .rbtext {
+    float: left;
+    height: 28px;
+    padding: 15px 20px 0px 10px;    /*amended DB 01/06/2018*/
+}
+
+#createACakeMain .rbtextmiddle {
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 10px 0px 0px 20px;
+}
+
+
+#createACakeMain .odd {
+    background-color: #F3EFEC;
+}
+
+#createACakeMain .even {
+    background-color: #FAF7F2;
+}
+
+#createACakeMain .rbblock {
+    display: none;
+}
+
+#createACakeMain ul.selectorchkli {
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding: 15px 0px 5px 30px;
+    color: #280000;
+    margin: 0px !important;
+}
+
+#createACakeMain #imgpanelHolder {
+    width: 100%;
+    /*overflow: hidden;*/   /*amended DB 01/06/2018*/
+}
+
+.valid {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#step5 p {
+    margin: 0px;
+}
+
+.ui-slider-horizontal .ui-state-default {
+}
+
+/* Corp page */
+
+.corpqty {
+    height: 25px;
+    float: left;
+}
+
+.corpa2b, .corpopt {
+    float: left;
+    width: 120px;
+}
+
+.homeCountdownTimer a {
+    color: #594344 !important;
+}
+
+.subCountdownTimer a {
+    color: #C9D2C3 !important;
+}
+
+.ccddlSelector {
+    width: 100%;
+    padding: 15px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .homeContainer
+    {
+        margin-top:0px !important;
+    }
+    select {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+        select.minimal {
+            background-image: none;
+        }
+
+    .gallery-main-image img {
+        max-width: 450px;
+    }
+
+    input {
+        display: block;
+    }
+}
+
+.emptyBasket
+{
+    width:100%;
+    min-height:250px;
+    background:url('/pv-template/style/images/empty-basket.jpg') no-repeat center top;
+    text-align:center;
+    padding-top:5%;
+}
+
+.emptyBasket:hover
+{
+     background:url('/pv-template/style/images/empty-basket.jpg') no-repeat center top;
+}
+
+#loggedinas 
+{
+    text-align:center;
+    padding:5px 5px;
+    margin-bottom:10px;
+    width:auto;
+}
+
+.loggedinasDarkInner
+{
+    border:0px solid #594344;
+    color: #594344;
+}
+.loggedinasDark a
+{
+    color: #594344;
+}
+
+.loggedinasLightInner
+{
+    border:0px solid #FFFFFF;
+    color: #f1f1f1;
+}
+
+.loggedinasLightInner a
+{
+    color: #f1f1f1;
+}
+
+.defaultSlideShow{
+    text-align:center;
+}
+
+
+
+/* Bunting Code */
+.bunting{
+	width: 20vw;
+    min-height: 1px;
+    background-color: rgba(40, 1, 4, 0.9);
+    display: none;
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 10px;
+}
+
+/* Mobile Bunting Styling */
+@media (max-width:992px) {
+/* Bunting Code */
+.bunting{
+	width: 80vw;
+	bottom:0px;
+	left:0px;
+}
+}
+
+.timingHolder {
+width:100%;
+background:brown;
+padding:10px 30px;
+color:white;
+
+}
+
+.timingHolder {
+    padding:8px 12px;
+    color:#594344;
+    background:#C9D2C3;
+    float:right;
+}
+
+.timingHolder a{
+    padding:8px 12px;
+    margin-top:-3px;
+    color:#594344;
+    background:#C9D2C3;
+    float:right;
+}
+
+.toolspanel .ddlselect
+{
+    width:100% !important;
+}

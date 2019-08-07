@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="favicon.png" rel="icon">
+    <meta name="author" content="#{author}">
+    <meta name="keywords" content="#{keyword}">
+    <meta name="description" content="#{description}">
+    <title>Make your Cake</title>
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700%7CPacifico%7CVarela+Round%7CPoppins" rel="stylesheet">
+    
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/ps-icon/ps-icon.css">
+    <!-- CSS Library-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/Magnific-Popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+    <!-- Custom-->
+
+    <link rel="stylesheet" href="pv-template/pv-style.css" />
+      <link rel="stylesheet" href="pv-template/extra.css?reload=01072019" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+    <script src="makeacake.js"></script>
+    <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <header class="header" data-responsive="1199">
+        <nav class="navigation">
+            <div class="container">
+                <div class="menu-toggle"><span></span></div>
+                <div class="navigation__left">
+                    <ul class="menu menu--left">
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="menu-item-has-children"><a href="product-grid.html">Products</a>
+                            <ul class="sub-menu">
+                                <li><a href="product-listing.html">Product Listing</a></li>
+                                <li><a href="product-grid.html">Product Grid</a></li>
+                                <li><a href="product-detail.html">Product Detail</a></li>
+                            </ul>
+                        </li>
+                        <li ><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <a class="ps-logo" href="index.html" style="left:-1rem"><img src="images/logo-1.png" alt=""></a>
+                <div class="navigation__right">
+                    <ul class="menu menu--right">
+                        <li><a href="career.html">Work with Us</a></li>
+                        <li class="menu-item-has-children"><a href="">More</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog-listing.html">Blogs</a></li>
+                                <li><a href="cakeclub.html">Cake Club</a></li>
+                                <li><a href="makeacake.html">Create your own Cake</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Contact</a>
+                            <ul class="sub-menu">
+                                <li><a href="contact.html">Contact 1</a></li>
+                                <li><a href="contact-2.html">Contact 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><i class="ps-icon--shopping-cart"></i></a>
+                        <div class="ps-cart__listing">
+                            <div class="ps-cart__content">
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-1.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">Amazin’ Glazin’</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-2.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Crusty Croissant</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-3.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Rolling Pin</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ps-cart__total">
+                                <p>Number of items:<span>36</span></p>
+                                <p>Item Total:<span>£528.00</span></p>
+                            </div>
+                            <div class="ps-cart__footer"><a class="ps-btn ps-btn--view-bag" href="cart.html">View bag</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+            
+    <div id="createACakeMain" style="margin-top:80px;">
+        <!-- Feature Banner Image -->
+        <div class="row section-secondary" style="padding: 0px; z-index: 1;">
+            <div class="container">
+                <div class="row" style="padding: 40px 20px 20px 20px;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                        <h1>Create a cake</h1>
+                        <div class="breadcrumbs">
+                            <p>Create your perfect cake using this easy step-by-step process. This is an artist's impression of our cakes, 
+                                the final product may look slightly different. If you're not sure what an ingredient is, 
+                                <strong><a href="#" onclick="return false;" data-toggle="modal" data-target="#glossaryModal1">refer to our Glossary</a></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Glossary Modal -->
+        <div id="glossaryModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Help Me Choose Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h3 class="modal-title">Ingredient Glossary</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h4>Cream Fillings</h4>
+                                <ul class="cacGlossaryUL">
+                                    <li><strong>Chantilly Cream</strong> - Dairy cream sweetened with sugar</li>
+                                    <li><strong>Chocolate Cream</strong> - Creme St-Honore made with real chocolate</li>
+                                    <li><strong>Coffee Cream</strong> - Coffee flavoured Dairy Cream </li>
+                                    <li><strong>Crème St-Honore</strong> - Dairy Cream and Custard Mix </li>
+                                    <li><strong>Sabayon Cream</strong> - A rich Creme St-Honore, made with egg yolk, sugar and flavoured with Marsala Wine</li>
+                                </ul>
+                                <h4>Fruit Fillings</h4>
+                                <ul class="cacGlossaryUL">
+                                    <li><strong>Mixed Berries</strong> - Blackberries, blackcurrants, redcurrants, strawberries, raspberries </li>
+                                    <li><strong>Raspberries</strong> - Fresh raspberries</li>
+                                    <li><strong>Cherries</strong> - Whole, pitted black cherries (may contain stones)</li>
+                                    <li><strong>Strawberries</strong> - Fresh strawberries</li>
+                                    <li><strong>Exotic Fruit</strong> - A mixture of fresh fruit, depending on availability</li>
+                                </ul>
+                                <h4>Side Decoration</h4>
+                                <ul class="cacGlossaryUL">
+                                    <li><strong>Charlotte Sponge</strong> - Fluted or ridged sweet plain sponge with sugar dusting</li>
+                                </ul>
+                                <h4>Toppings</h4>
+                                <ul class="cacGlossaryUL">
+                                    <li><strong>Profiteroles</strong> - Choux pastry filled with fresh or flavoured cream, and coated with chocolate</li>
+                                    <li><strong>Dusted Mixed Berries</strong> - Berries dusted with icing sugar</li>
+                                    <li><strong>Glazed Mixed Berries</strong> - Berries coated with a clear glaze (suitable for vegetarians)</li>
+                                    <li><strong>Charlotte Topping</strong> - piped St Honore and chocolate cream, whole strawberries, Belgian chocolate sticks and a Belgian chocolate flower</li>
+                                    <li><strong>Habana</strong> - filled Belgian chocolate cups with fresh cream, sabayon cream and chocolate cream decorated with fresh berries</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-pv-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!-- Page Structure (Sidebar and Content) Starts -->
+        <div class="row sectimages/createacake/chocolateBottom.pngion" style="margin-top: 20px;">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-8 order-12" style="padding: 0px 30px; text-align: justify;">
+                    <div id="">
+                            <span id="baseContentHolder_ctl01_cust1val" class="valid" style="display:none;">You must select from all of the options</span>
+                            <div id="imgpanelHolder">
+                                <div id="baseContentHolder_ctl01_cakepic" class="imgPanelInnerHolder">
+                                    <div id="step1" >
+                                        <div class="cakeLayers" style="z-index: 5;">
+                                            <img src="images/createacake/chocolateBottom.png" id="layer1">
+                                        </div>
+                                        <div class="cakeLayers" style="z-index: 10;">
+                                            <img src="images/createacake/freshBottom.png" id="layer2">
+                                        </div>
+                                        <div class="cakeLayers" style="z-index: 15;">
+                                            <img src="images/createacake/chocolateMiddle.png" id="layer3">
+                                        </div>
+                                        <div class="cakeLayers" style="z-index: 20;">
+                                            <img src="images/createacake/freshTop.png" id="layer4">
+                                        </div>
+                                        <div class="cakeLayers" style="z-index: 25;">
+                                            <img src="images/createacake/chocolateTop.png" id="layer5">
+                                        </div>
+                                    </div>
+                                    <div class="cakeLayers" style="z-index: 30;">
+                                        <img src="" id="sideLayer">
+                                    </div>
+                                    <div class="cakeLayers" style="z-index: 35;">
+                                        
+                                    </div>
+                                    <div class="cakeLayers" style="z-index: 40;">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+                            <!-- Sub Menu -->
+                <div class="col-md-4 order-1 subMenuColumn" style="margin-top: -150px; min-height: 80vh;">
+                    <div id="toolspanelHolder">
+                        <div id="baseContentHolder_ctl01_ToolsPanel">
+        
+                                <div style="clear:both;padding-bottom:20px;min-height:100px;">
+                                    
+                                            <div class="cacStepTitle">
+                                                <h3 class="h3underline">Step 1 - Choose your fillings</h3>
+                                            </div>
+                                            <div>
+                                                <div class="cacSelectorHolder">
+                                                    <p>Please note that fruit filling, if selected, is only added to the first layer of cream.</p>
+                                                </div>
+                                                <div class="cacSelectorHolder" id="top">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                        <h5 style=" padding: 10px 15px 0px ;">SPONGE</h5>
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                                            <span class="navbar-toggler-icon" style="float:right"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item" style="margin-bottom:7px;">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sponge" id="chocSponge" checked>Chocolate Sponge
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sponge" id="vanSponge">Vanilla Sponge
+                                                                        </label>
+                                                                    </div>
+                                                                </li> 
+                                                            </ul>
+                                                        </div>  
+                                                    </nav>
+                                                </div>
+                                                <div class="cacSelectorHolder">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                            <h5 style=" padding: 10px 15px 0px ;">FIRST LAYER CREAM</h5>
+                                                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
+                                                                <span class="navbar-toggler-icon" style="float:right"></span>
+                                                            </button>
+                                                            <div class="collapse navbar-collapse" id="collapsibleNavbar2">
+                                                                <ul class="navbar-nav">
+                                                                    <li class="nav-item" style="margin-bottom:7px;">
+                                                                        <div class="form-check">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio" class="form-check-input" name="flcream" id="chocCream">Chocolate Cream
+                                                                            </label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="form-check">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio" class="form-check-input" name="flcream" id="cofCream">Coffee Cream
+                                                                            </label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="form-check">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio" class="form-check-input" name="flcream" id="vanCream" checked>Vanilla Cream
+                                                                            </label>
+                                                                        </div>
+                                                                    </li> 
+                                                                </ul>
+                                                            </div>  
+                                                        </nav>
+                                                </div>
+                                                <div class="cacSelectorHolder">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                        <h5 style=" padding: 10px 15px 0px ;">SECOND LAYER CREAM</h5>
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar3">
+                                                            <span class="navbar-toggler-icon" style="float:right"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="collapsibleNavbar3">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item" >
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="slcream" id="schocCream">Chocolate Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="slcream" id="scofCream">Coffee Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="slcream" id="svanCream" checked >Vanilla Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li> 
+                                                            </ul>
+                                                        </div>  
+                                                    </nav>
+                                                </div>
+                                                <div class="cacSelectorHolder">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                        <h5 style=" padding: 10px 15px 0px ;"> FRUIT FILLING (not shown)</h5>
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar4">
+                                                            <span class="navbar-toggler-icon" style="float:right"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="collapsibleNavbar4" style="max-height: 100px; overflow: auto">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item" >
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="fruit">No Fruit
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="fruit">Strawberry
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="fruit">Cherries
+                                                                        </label>
+                                                                    </div>
+                                                                </li> 
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="fruit">Exotic Fruits
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="fruit">Pineapple
+                                                                        </label>
+                                                                    </div>
+                                                                </li>  
+                                                            </ul>
+                                                        </div>  
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                            <div class="cacStepTitle" style="margin-top:2rem">
+                                                <h3 class="h3underline">Step 2 - Outer Decoration</h3>
+                                            </div>
+                                            <div class="cacSelectorHolder">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                        <h5 style=" padding: 10px 15px 0px ;"> Side Decoration</h5>
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar5">
+                                                            <span class="navbar-toggler-icon" style="float:right"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="collapsibleNavbar5" style="max-height: 100px; overflow: auto">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item" >
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sideDec" id="whiteChocCigar"  >White Choc Ciggaretes
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sideDec" id="darkChocCigar">Dark Choc Ciggaretes
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sideDec" id="darkChocCurl">Dark Chocolate Curls
+                                                                        </label>
+                                                                    </div>
+                                                                </li> 
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sideDec" id="chocSprinkles">Chocolate Sprinkles
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="sideDec" id="darkChoc">Dark Chocolate
+                                                                        </label>
+                                                                    </div>
+                                                                </li>  
+                                                            </ul>
+                                                        </div>  
+                                                    </nav>
+                                                </div>
+                                                <div class="cacSelectorHolder">
+                                                    <nav class="navbar bg-white navbar-light" style="margin-bottom: 10px; padding:4px 4px ">
+                                                        <h5 style=" padding: 10px 15px 0px ;"> Top Decoration</h5>
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar6">
+                                                            <span class="navbar-toggler-icon" style="float:right"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="collapsibleNavbar6" style="max-height: 100px; overflow: auto">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item" >
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="topDec" value="strawberries">Strawberries around
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="topDec" value="exoticFruits">Exotic Fruit Around
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="topDec" value="chocCreamStrawberries">Strawberries and Chocolate Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li> 
+                                                                <!-- <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="topDec">Chocolate Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="radio" class="form-check-input" name="topDec">White Chocolate Cream
+                                                                        </label>
+                                                                    </div>
+                                                                </li>   -->
+                                                            </ul>
+                                                        </div>  
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <input type="submit" name="ctl00$ctl00$baseContentHolder$ctl01$testbtn" value="Submit" id="baseContentHolder_ctl01_testbtn" class="btn-pv-secondary nextstep">
+                                                <br>
+                                                <div class="clearfix"></div>
+                                                <span id="baseContentHolder_ctl01_cust1val" class="valid" style="display:none;">You must select from all of the options</span>
+                                            </div>
+                                        
+                                </div>
+
+                                <div id="cacAllergensHolder">
+                                    <div id="baseContentHolder_ctl01_allergens" class="cacAllergens">
+                                        <p class="h4size" style="font-weight: bold;">Allergen Information</p>
+                                        <p>Wheat, Eggs, Milk, Soya</p>
+                                        <p id="baseContentHolder_ctl01_allergendetail"></p>
+                                        <p>
+                                            Keep refrigerated<br>
+                                            Made in an environment where nuts and sesame are handled.
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+            <footer class="ps-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="ps-widget ps-widget--footer ps-widget--payment">
+                                    <div class="ps-widget__header">
+                                        <h3 class="ps-widget__title">PAYMENTS ACCEPTED</h3>
+                                    </div>
+                                    <div class="ps-widget__content">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="images/payment/1.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="images/payment/2.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="images/payment/3.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="images/payment/4.png" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="images/payment/5.png" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="ps-widget ps-widget--footer ps-widget--worktime">
+                                    <div class="ps-widget__header">
+                                        <h3 class="ps-widget__title">WORK TIME</h3>
+                                    </div>
+                                    <div class="ps-widget__content">
+                                        <p><strong>Monday - Friday</strong> 8:00 am - 8:30 pm</p>
+                                        <p><strong>Satuday - Sunday</strong>10:00 am - 16:30 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="ps-widget ps-widget--footer ps-widget--order">
+                                    <div class="ps-widget__header">
+                                        <h3 class="ps-widget__title">ORDERS AND RETURNS</h3>
+                                    </div>
+                                    <div class="ps-widget__content">
+                                        <ul class="ps-list--line">
+                                            <li><a href="#">Order</a></li>
+                                            <li><a href="#">Shipping</a></li>
+                                            <li><a href="#">Policy Return Policy</a></li>
+                                            <li><a href="#">Payments</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="ps-widget ps-widget--footer ps-widget--connect">
+                                    <div class="ps-widget__header">
+                                        <h3 class="ps-widget__title">CONNECT US</h3>
+                                    </div>
+                                    <div class="ps-widget__content">
+                                        <ul class="ps-widget__social">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                        <a href="#"><img src="images/app.jpg" alt=""></a>
+                                        <p>@2019 Design by<a href="#"> RSTech Softwares</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+</body>
